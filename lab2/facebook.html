@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Browser</title>
+  <style>
+    #any {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      width: 100%;
+      height: 80%; /* 70% от высоты страницы */
+      background-color: #f0f0f0;
+    }
+
+    #title {
+        width:320px;
+        position:absolute;
+        left:22.5%;
+        top:24%;
+    }
+
+    #sub-title {
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    position:absolute;  
+    left:24%;
+    top:34%; 
+    width: 500px;
+    line-height: 32px;
+    
+      
+      
+    }
+
+    #input {
+        border-radius: 6px;
+        background-color:white;
+        padding:7px;
+        border:1px solid rgba(28, 29, 28, 0.1);
+        width:405px;
+        height:43%;
+      position: absolute;
+      top: 20%;
+      left: 54%; /* Установка координат X */
+    }
+
+    #email,
+    #password {
+        font-size: 17px;
+      font-family: Helvetica, Arial, sans-serif;
+      display: auto; /* Сделать input блочными элементами */
+      margin: 4px; 
+      width:380px;
+      height:15%;
+      border-radius: 6px;
+      border:1px solid rgba(28, 29, 28, 0.1);
+    padding: 4px 8px;
+    }
+    #button{
+        font-size:bold;
+        font-family: Helvetica, Arial, sans-serif;
+        font-size: 20px;
+        background-color: #1877f2;
+        color:white;
+        position:relative;
+        top:4px;
+        bottom:2px;
+        left:4px;
+        width:400px;
+        height:13%;
+        border-radius: 6px;
+        border:none;
+    }
+    #fp{
+        color: #1877f2;
+        font-size: 16px;
+        font-weight: 500;
+        position:relative;
+        top:15px;
+        bottom:15px;
+        left:150px;
+        text-decoration: none;
+    }
+    #block{
+        position:relative;
+        margin-top:35px;
+        padding-top:30px;
+        border-top:1px solid gray;
+        
+    }
+    #acc{
+        font-size:bold;
+        position:absolute;
+        width: 220px;
+        padding:10px;
+        height: 30px !important;
+        border-radius: 6px;
+        border:0;
+        font-size:20px;
+        left:90px;
+        background-color:rgb(104, 174, 69);
+        color:white;
+        text-decoration: none;
+    }
+    
+        #text {
+      position: absolute;
+      top: 340px; /* Позиция текста под блоком "Создать новый аккаунт" */
+      font-size:normal;
+      font-family:'Times New Roman', Times, serif;
+    }
+    footer {
+          font-size:12px;
+            background-color: white;
+            color: #8a8d91; /* Цвет текста */
+            padding: 20px; /* Внутренний отступ */
+            position: absolute; /* Фиксированное положение */
+            bottom: 0; /* Прикрепление к нижней части страницы */
+            width: 100%; /* Ширина 100% */
+            text-align: center; /* Выравнивание текста по центру */
+        }
+      #foot{
+        font-family: inherit;
+        position:absolute;
+        bottom:140px;
+        left:25%;
+        word-spacing:4px;
+      }
+      ul {
+            list-style-type: none;
+        }
+        #foot2{
+        float:left;
+        position:absolute;
+        font-family: inherit;
+        left:24%;
+        word-spacing:4px;
+        width:50%;
+        bottom:70px;
+      }
+
+  </style>
+</head>
+
+<body>
+  <div id="any">
+    <img src = "https://static.xx.fbcdn.net/rsrc.php/y1/r/4lCu2zih0ca.svg" alt = "logo facebook" id = "title">
+    <h2 id="sub-title">Facebook помогает вам всегда оставаться на связи и общаться со своими знакомыми.</h2>
+    
+    <div id="input">
+      <input type="email" id="email" name="email" placeholder="Электронный адрес или номер телефона" />
+      <input type="password" id="password" name="password" placeholder="Пароль" />
+      <button name="button" id="button">Вход</button> <br>
+      <a href = "https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0" id = "fp">Забыли пароль?</a>
+      <div id = "block">
+        <a href = "" id = "acc"><strong>Создать новый аккаунт<strong></a>
+      </div>
+      <p id="text"><strong><a href = "facebook.html" style = "text-decoration: none;">Создать Страницу</a></strong> знаменитости, музыкальной группы или компании. </p>
+    </div>
+  </div>
+
+  <footer>
+    <ul>
+      <li id = "foot">Bahasa  Indonesia  Русский English(US)  Türkçe  中文(简体)
+        Қазақша
+        Deutsch
+        한국어
+        Shqip
+        Español
+        Português (Brasil)
+        </li>
+
+    </ul>
+    <ul>
+      <li id = "foot2">
+        Daftar Masuk Messenger Facebook Lite Video Tempat Game Marketplace Meta Pay Meta Store Meta Quest Bayangkan dengan Meta AI Instagram Threads Penggalangan Dana Layanan Pusat Informasi Pemilu Kebijakan Privasi Pusat Privasi Grup Tentang Buat Iklan Buat Halaman Developer Karier Cookie Pilihan Iklan Ketentuan Bantuan Pengunggahan Kontak & Non-Pengguna Pengaturan Log aktivitas
+
+<br>Meta © 2024
+        </li>
+
+    </ul>
+</footer>
+</body>
+
+
+</html>
