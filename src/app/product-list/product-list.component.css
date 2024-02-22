@@ -1,0 +1,25 @@
+/* product-list.component.css */
+.product-container {
+  display: flex;
+  align-items: center; /* Выравнивание по вертикали */
+  margin-bottom: 20px; /* Добавляем отступ снизу между продуктами */
+}
+
+.image {
+  margin-right: 20px; /* Отступ справа от изображения */
+}
+
+.content {
+  flex-grow: 1; /* Растягиваем контент на всю доступную ширину */
+}
+
+#share{
+  border-radius: 4px;
+  margin:10px;
+}
+
+/*
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://angular.io/license
+*/
